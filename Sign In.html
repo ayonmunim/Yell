@@ -20,16 +20,48 @@
       height: 500px;
       background-color:white;
       }
-
+      input{
+        width: 30%;
+        padding: 10px;
+      }
+      label{
+        width: 5%;
+      }
     </style>
 
     <div class="topnav">
-                  <img src="yell-logo.png" width="240" height="130"> 
+        <div class="shadow-sm p-3 mb-5 bg-body rounded">
+
+                  <img src="yell-logo.png" width="170" height="90"
               style="position: relative;
-              top: -10px;  
+              top: 20px;  
               left: 50px;">
-              <h5 style="text-align: center; font-style:"Trebuchet MS,cursive;">Sign In</h5>
+              <h4 style="font-family: 'Trebuchet MS', cursive; position: relative;top:-25px;text-align: center;">Sign In</h4>
     </div>
+
+    <div>
+      <h5 style="position: absolute;left:20%">Create An Account</h5>
+    </div>
+
+
+      <div class="container" style="position: relative;left: 30%;top: 5%">
+
+        <input type="text" id="name" name="name" placeholder="Username"><br><br>
+
+
+        <input type="text" id="lname" name="Mobile" placeholder="Email or Mobile number"><br><br>
+
+
+        <input type="Password" id="lname" name="Email" placeholder="Password"><br><br>
+
+        <input type="submit" value="Submit"><br>
+
+      </div>
+       <div  style="position:absolute;left: 43%;top: 80%">
+          <p>Already have an account? <a href="Log In.html" style="color:red">Log in</a></p>
+       </div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
